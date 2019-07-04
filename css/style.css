@@ -1,0 +1,164 @@
+
+}
+body{ 
+font-family: Georgia ;
+background: rgb(192, 187, 187) ;
+
+} 
+header {
+    height: 80px;
+    border: solid 1px #cccccc; 
+    background-color: white;
+    margin-bottom: 20px;
+}
+header h1
+{
+    background: #4aaaa5;
+    width: 200px;
+    float: left;
+    margin-left: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+header ul li a{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+    
+}
+header ul
+{
+    margin-right: 200px;
+    margin-top: 25px;
+}
+.container .about
+{
+    padding: 10px;
+    margin: 0 auto;
+    float: left;
+    height: 400px;
+    width: 60%;
+    background: #ffffff;
+}
+
+.container .about h1
+{
+    font-weight: bold;
+    
+    font-size: 20px;
+    color: #4aaaa5 ;
+    height: 15px;
+    padding: 22px;
+    margin-bottom: 10px;
+    border-bottom:1px solid grey;
+    box-sizing: border-box; 
+}
+.container .about img {
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+    
+}
+.container .about p{
+    text-indent: 15px;
+    text-align: justify;
+}
+
+.connect {
+    float: right;
+    height: 200px;
+    width: 25%;
+    background: #ffffff;
+    
+}
+.connect h2 {
+    font-weight: bold;
+    font-size: 15px;
+    color:#4aaaa5;
+    padding: 22px;
+}
+.connect .logos{
+    margin: 0 auto;
+}
+
+
+footer {
+    clear: both;
+    height: 80px;
+    border-top: 5px solid #4aaaa5 ;
+    background-color: #666666;
+    
+}
+footer p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #ffffff
+} 
+/*************/
+.container {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+.section {
+    width: 580px;
+    margin: 0 auto ;
+} 
+.container h1 {
+    font-weight: bold;
+   margin-left: 20px;
+   font-size: 20px;
+   color: #4aaaa5;
+   height: 15px;
+   padding: 22px;
+   
+}
+input {
+   
+    width: 95%;
+    margin-top: 5px;
+    
+}
+.inp {
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #4aaaa5;
+    color: white;
+}
+.write {
+    height: 150px;
+    
+}
+label {
+    color: gray;
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px){
+    .h1 {
+    
+        width: 100%;
+        background-color: red;
+    }
+    .name {
+        width:100%
+    }
+    .container {
+        width:100%;
+        
+    }
+    .about {
+        width:100%;
+    }
